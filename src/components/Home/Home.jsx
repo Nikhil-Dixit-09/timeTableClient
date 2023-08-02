@@ -347,13 +347,15 @@ const Home = () => {
     setData(backup);
     console.log(backup);
     console.log(data);
-
+    setTeachers(1);
     if(generate===0){
       setGenerate(1);
       setPdf(1);
+      setTeachers(1);
     }else{
       setGenerate(0);
       setPdf(1);
+      setTeachers(1);
       setTimeout(() => {
         setGenerate(1);
       }, 300)
