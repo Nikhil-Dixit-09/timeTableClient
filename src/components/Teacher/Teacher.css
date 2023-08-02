@@ -1,0 +1,26 @@
+.teacher-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.days{
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 24px;
+    text-align: center;   
+    padding: 12px;
+    color: #333;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.timeTable{
+    /* border: 2px solid black; */
+    width: fit-content;
+    margin: auto;
+}
+/* Button Styles */
+.gen {
+    margin: 5px;
+  }
+  
+
+  
